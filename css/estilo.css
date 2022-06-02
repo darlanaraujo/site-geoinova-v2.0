@@ -4,46 +4,124 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fundo-topo {
+    width: 100%;
+    min-height: 530px;
+    background-color: #080710;
+    background-image: url("../img/fundo-topo.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    position: relative;
-
-    border: solid 1px yellowgreen;
-}
-
-.topo {
-    width: 100%;
-    height: 300px;
-    background-color: aqua;
-}
-
-.container-limite {
-    max-width: 800px;
-    min-width: 400px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
+}
+
+.container-limite {
+    max-width: 1400px;
+    min-width: 400px;
+    
 
     border: solid 1px red;
 }
 
-.header {
+/* Topo - Logo e Menu */
+.header-top{
     display: flex;
     padding: 20px;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px blue;
 }
 
+/* Logo */
+.logo {
+    cursor: pointer;
+}
+
+/* Menu */
 .menu-principal ul {
     display: flex;
+    gap: 5px;
 }
 
-.menu-principal .menu {
+.menu-principal a.menu {
     color: #fff;
-    padding: 10px 20px;
-    border: solid 1px red;
+    padding: 13px 20px;
+    cursor: pointer;
+
+}
+
+.menu-principal .menu i {
+    font-size: 20px;
+}
+
+.menu-principal a.menu:hover {
+    border-radius: 0;
+    border-bottom: solid 3px #005FF6;
+}
+
+/* Conteúdo Cabeçalho */
+.header-content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Conteúdo Esquerdo */
+.header-content-leaft {
+    max-width: 550px;
+    color: #fff;
+}
+
+.header-content-title {
+    font-size: 60px;
+    line-height: 1;
+    text-transform: uppercase;
+    
+}
+
+.header-content-text {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin-top: 20px;
+    padding: 0 50px 0 0 ;
+}
+
+.header-content-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #005FF6;
+    padding: 13px 100px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+.header-content-btn:hover {
+    background-color: #fff;
+    color: #005FF6;
+}
+
+/* Conteúdo Direito */
+.header-content-right {
+    justify-content: center;
 }
