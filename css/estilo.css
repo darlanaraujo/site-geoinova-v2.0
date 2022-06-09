@@ -1,3 +1,4 @@
+/* Estilos Gerais */
 * {
     padding: 0;
     margin: 0;
@@ -8,111 +9,122 @@
     -webkit-font-smoothing: antialiased;
 }
 
+/* Imagem topo */
 .fundo-topo {
-    width: 100%;
-    min-height: 530px;
+    width: 100vh;
+    height: 525px;
     background-color: #080710;
     background-image: url("../img/fundo-topo.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    position: relative;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
+.section-img-curvas {
+    display: block;
+    width: 100vh;
+}
+.img-curvas {
+    display: block;
+    width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+    bottom: -61px;
 }
 
-.container-limite {
-    max-width: 1400px;
-    min-width: 400px;
-    
-
+/* Cabeçalho */
+.header {
+    width: 100%;
+    padding: 10px 20px;
     border: solid 1px red;
 }
 
-/* Topo - Logo e Menu */
-.header-top{
+/* Topo (logo, Menu) */
+.header-top {
     display: flex;
-    padding: 20px;
-    width: 100%;
-    height: 70px;
     justify-content: space-between;
+    width: 100%;
+    height: 72px;
     align-items: center;
-    border: solid 1px blue;
+
+    border: solid 1px green;
 }
 
-/* Logo */
-.logo {
-    cursor: pointer;
-}
-
-/* Menu */
-.menu-principal ul {
+/* Menu Principal */
+.menu-principal {
     display: flex;
-    gap: 5px;
+    align-items: center;
+    gap: 2px;
 }
 
-.menu-principal a.menu {
+.menu-principal .menu{
+    font-size: 14px;
     color: #fff;
-    padding: 13px 20px;
+    padding: 15px 20px;
     cursor: pointer;
+}
+.menu-principal .menu:hover {
+    border-bottom: 3px solid #005FF6;;
+}
+
+.menu-principal .menu-social {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .5s;
 
 }
 
-.menu-principal .menu i {
-    font-size: 20px;
+.menu-principal .menu-social:hover {
+    background-color: #005FF6;
+    border-radius: 8px;
 }
 
-.menu-principal a.menu:hover {
-    border-radius: 0;
-    border-bottom: solid 3px #005FF6;
-}
 
 /* Conteúdo Cabeçalho */
 .header-content {
     display: flex;
-    padding: 20px;
+    margin-top: 50px;
     justify-content: space-between;
-    margin-top: 40px;
+
+    border: solid 1px yellow;
 }
 
-/* Conteúdo Esquerdo */
+/* Conteudo Esquerdo */
 .header-content-leaft {
-    max-width: 550px;
+    max-width: 500px;
     color: #fff;
+
+    border: solid 1px rgb(167, 17, 222);
 }
 
 .header-content-title {
-    font-size: 60px;
-    line-height: 1;
+    font-size: 46px;
+    font-weight: 400;
     text-transform: uppercase;
-    
+    line-height: 1;
 }
 
 .header-content-text {
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.4em;
+    max-width: 90%;
+    font-size: 26px;
     margin-top: 20px;
-    padding: 0 50px 0 0 ;
+    line-height: 1.4em;
+    font-weight: 200;
 }
 
 .header-content-btn {
     display: inline-block;
-    color: #fff;
+    /* width: 60%; */
+    margin-top: 20px;
+    padding: 18px 100px;
+    border-radius: 30px;
     background-color: #005FF6;
-    padding: 13px 100px;
-    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 30px;
     transition: .5s;
 }
 
@@ -121,7 +133,11 @@
     color: #005FF6;
 }
 
-/* Conteúdo Direito */
-.header-content-right {
-    justify-content: center;
+
+/* Seção 1 - Quem Somos */
+.section-quem-somos {
+    margin-top: 20px;
 }
+
+
+
