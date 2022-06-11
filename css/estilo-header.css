@@ -1,0 +1,105 @@
+/* Imagem topo */
+.fundo-topo {
+    width: 100vw;
+    height: 525px;
+    background-color: #080710;
+    background-image: url("../img/fundo-topo.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.section-img-curvas {
+    display: block;
+    width: 100vw;
+}
+.img-curvas {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+}
+
+/* Cabeçalho */
+.header {
+    width: 100%;
+    height: 525px;
+    padding: 10px 20px;
+
+}
+
+/* Topo (logo, Menu) */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 72px;
+    align-items: center;
+}
+
+/* Menu Principal */
+.menu-principal {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.menu-principal .menu{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.menu-principal .menu:hover {
+    border-bottom: 3px solid #005FF6;;
+}
+
+.menu-principal .menu-social {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.menu-principal .menu-social:hover {
+    background-color: #005FF6;
+    border-radius: 8px;
+}
+
+
+/* Conteúdo Cabeçalho */
+.header-content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+/* Conteudo Esquerdo */
+.header-content-leaft {
+    max-width: 500px;
+    color: #fff;
+}
+
+.header-content-title {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.header-content-text {
+    /* max-width: 95%; */
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+.header-content-btn {
+    margin-top: 20px;
+    padding: 15px 120px !important;
+
+}

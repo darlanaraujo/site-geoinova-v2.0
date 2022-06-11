@@ -1,0 +1,49 @@
+/* Seção 1 - Quem Somos */
+.fundo-S1 {
+    width: 100%;
+    min-height: 520px;
+    background-image: url('../img/bg-4.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-quem-somos {
+    display: flex;
+    width: 100%;
+    padding: 100px 20px;
+}
+
+/* lado esquedo */
+.img-quem-somos {
+    width: 50%;
+}
+
+.S1-img {
+    width: 475px;
+}
+
+/* lado Direito */
+.text-quem-somos {
+    width: 50%;
+}
+
+.titulo-menu {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: #005FF6;
+    margin-bottom: 20px;
+}
+
+.S1-titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #080710;
+    line-height: 1.2em;
+}
+
+.S1-text {
+    margin-top: 20px;
+    font-size: 16px;
+}
