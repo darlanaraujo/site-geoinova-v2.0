@@ -1,0 +1,46 @@
+.S3-fundo {
+    width: 100%;
+    min-height: 520px;
+    background-image: url('../img/bg-2-1.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.S3-section-contato {
+    padding: 80px 20px;
+    display: flex;
+
+}
+
+.S3-box-esquerdo {
+    width: 50%;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.S3-titulo {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+
+}
+
+.S3-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.S3-box-btn {
+    margin-top: 35px;
+}
+
+.S3-box-direito {
+    width: 50%;
+}
+
+.video {
+    border-radius: 30px;
+}

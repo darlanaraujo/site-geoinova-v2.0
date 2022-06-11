@@ -7,14 +7,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.section-quem-somos {
+.S1-section-quem-somos {
     display: flex;
     width: 100%;
     padding: 100px 20px;
 }
 
 /* lado esquedo */
-.img-quem-somos {
+.S1-box-img {
     width: 50%;
 }
 
@@ -23,11 +23,11 @@
 }
 
 /* lado Direito */
-.text-quem-somos {
+.S1-text-quem-somos {
     width: 50%;
 }
 
-.titulo-menu {
+.S1-titulo-menu {
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: normal;
@@ -36,11 +36,7 @@
 }
 
 .S1-titulo {
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #080710;
-    line-height: 1.2em;
+    text-align: left;
 }
 
 .S1-text {

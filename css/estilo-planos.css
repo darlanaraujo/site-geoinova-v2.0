@@ -1,0 +1,89 @@
+.S4-fundo {
+    width: 100%;
+    height: 840px;
+    background-color: #fff;
+}
+
+.S4-section-planos {
+    padding: 100px 20px;
+}
+
+.S4-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.S4-card-planos {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.S4-card {
+    width: 50%;
+}
+
+.S4-topo-card {
+    width: 100%;
+    height: 83px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    line-height: 83px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.S4-box-card {
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-radius: 0px 0px 20px 20px;
+    padding: 25px;
+}
+
+.S4-lista-item {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin: 15px 0px;;
+}
+
+.S4-card-melhor .S4-topo-card {
+    background-color: #005ff6;
+    border: solid 3px #005ff6;
+}
+
+.S4-card-melhor .S4-box-card {
+    color: #005ff6;
+}
+
+.S4-lista-item:not(:last-child)::after {
+    content: '';
+    border-bottom: solid 1px #ddd;
+    width: 100%;
+    /* margin-top: 30px; */
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.S4-preco {
+    text-align: center;
+    font-size: 42px;
+}
+
+.S4-preco span {
+    font-size: 12px;
+}
+
+.S4-box-btn {
+    margin: 10px 0px;
+}
+
+.S4-btn {
+    width: 100%;
+}
+
+
+

@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/estilo-header.css">
     <link rel="stylesheet" href="css/estilo-quem-somos.css">
     <link rel="stylesheet" href="css/estilo-beneficios.css">
+    <link rel="stylesheet" href="css/estilo-contato.css">
+    <link rel="stylesheet" href="css/estilo-planos.css">
+    <link rel="stylesheet" href="css/estilo-blog.css">
+    <link rel="stylesheet" href="css/estilo-depoimentos.css">
 
     <!-- Script -->
     <script src="js/script.js" defer></script>
@@ -59,7 +63,7 @@
                         Monitore sua área e obtenha uma visão digital sobre aspectos legais e ambientais. Confira abaixo como podemos te ajudar.
                     </p>
 
-                    <a class="header-content-btn btn-azul" id="btn-saiba-mais" href="#">Saiba mais</a>
+                    <a class="header-content-btn btn-padrao" id="btn-saiba-mais" href="#">Saiba mais</a>
                 </div>
 
                 <div class="header-content-right">
@@ -78,72 +82,348 @@
         
         <!-- S1 = Seção 1 -->
         <div class="fundo-S1">
-            <section class="container-limite section-quem-somos S1">
+            <section class="container-limite S1-section-quem-somos">
                 
-                    <div class="img-quem-somos">
+                    <div class="S1-box-img">
                         <img class="S1-img" src="img/img-1-1-1.jpg" alt="[Imagem destaque seção Quem Somos]">
                     </div>
-                    <div class="text-quem-somos">
-                        <h3 class="titulo-menu">Quem Somos?</h3>
-                        <h1 class="S1-titulo">Somos a Inovação</h1>
-                        <h1 class="S1-titulo">Somos a Inspiração</h1>
-                        <h1 class="S1-titulo">Somos a Mudança</h1>
+                    <div class="S1-text-quem-somos">
+                        <h3 class="S1-titulo-menu">Quem Somos?</h3>
+                        <h1 class="titulo-principal S1-titulo">Somos a Inovação</h1>
+                        <h1 class="titulo-principal S1-titulo">Somos a Inspiração</h1>
+                        <h1 class="titulo-principal S1-titulo">Somos a Mudança</h1>
 
                         <p class="S1-text">Nossa empresa existe para melhorar o desempenho de sua gestão de áreas e otimizar o seu tempo. Através de muita pesquisa e estudos sobre sensoriamento remoto, conseguimos <strong>monitorar grandes áreas,</strong> gerar acompanhamento de áreas de <strong>regeneração florestal, uso e cobertura do solo,</strong> potenciais <strong>focos de incêndio</strong> e <strong>prevenimos problemas</strong> como <strong>construções irregulares, desmatamento e garimpo ilegal.</strong></p>
                     </div>
             </section>
         </div>
 
-        <!-- S2 = Seção 2 -->
-        <div class="fundo-S2">
-            <section class="container-limite section-beneficios S2">
-                <h1 class="S2-titulo">Porque podemos te ajudar</h1>
+        <!-- S2 = Seção Benefícios -->
+        <div class="S2-fundo">
+            <section class="container-limite S2-section-beneficios">
+                <h1 class="S2-titulo titulo-principal">Porque podemos te ajudar</h1>
 
-                <div class="box-card">
-                    <div class="card">
-                        <i class="icon-card fa-solid fa-satellite"></i>
-                        <h2 class="titulo-card">IMAGENS ATUALIZADAS</h2>
-                        <p class="text-card">Você possui acesso a um repositório de imagens de satélite atualizadas de forma semanal.</p>
+                <div class="S2-box-card">
+                    <div class="S2-card">
+                        <i class="S2-icon-card fa-solid fa-satellite"></i>
+                        <h2 class="S2-titulo-card">IMAGENS ATUALIZADAS</h2>
+                        <p class="S2-text-card">Você possui acesso a um repositório de imagens de satélite atualizadas de forma semanal.</p>
                     </div>
 
-                    <div class="card">
-                        <i class="icon-card fa-solid fa-bell"></i>
-                        <h2 class="titulo-card">MONITORAMENTO DA CAVA</h2>
-                        <p class="text-card">Na plataforma GeoInova você acompanha a evolução da sua cava em relação ao direito minerário.</p>
+                    <div class="S2-card">
+                        <i class="S2-icon-card fa-solid fa-bell"></i>
+                        <h2 class="S2-titulo-card">MONITORAMENTO DA CAVA</h2>
+                        <p class="S2-text-card">Na plataforma GeoInova você acompanha a evolução da sua cava em relação ao direito minerário.</p>
                     </div>
 
-                    <div class="card">
-                        <i class="icon-card fa-solid fa-draw-polygon"></i>
-                        <h2 class="titulo-card">DIREITO MINERAL</h2>
-                        <p class="text-card">Monitore seus direitos minerais e seja alertado sobre construções irregulares, garimpos ilegais e muito mais.</p>
-                    </div>
-                </div>
-
-                <div class="box-card">
-                    <div class="card">
-                        <i class="icon-card fa-solid fa-tree"></i>
-                        <h2 class="titulo-card">REGENERAÇÃO FLORESTAL</h2>
-                        <p class="text-card">Acompanhe a evolução da regeneração florestal das suas áreas e ativos florestais.</p>
-                    </div>
-
-                    <div class="card">
-                        <i class="icon-card fa-solid fa-search-location"></i>
-                        <h2 class="titulo-card">USO E COBERTURA DO SOLO</h2>
-                        <p class="text-card">Veja de forma histórica e acompanhe a evolução do uso e cobertura do solo das suas áreas de interesse.</p>
-                    </div>
-
-                    <div class="card">
-                        <i class="icon-card fa-solid fa-snowplow"></i>
-                        <h2 class="titulo-card">DETECTE SUPRESSÃO VEGETAL</h2>
-                        <p class="text-card">Seja notificado e acompanhe os alertas de possíveis áreas de supressão vegetal irregulares.</p>
+                    <div class="S2-card">
+                        <i class="S2-icon-card fa-solid fa-draw-polygon"></i>
+                        <h2 class="S2-titulo-card">DIREITO MINERAL</h2>
+                        <p class="S2-text-card">Monitore seus direitos minerais e seja alertado sobre construções irregulares, garimpos ilegais e muito mais.</p>
                     </div>
                 </div>
 
-                <div class="box-btn">
-                    <a class="section-beneficios-btn btn-azul" id="btn-texte-gratis" href="#">Teste Grátis</a>
+                <div class="S2-box-card">
+                    <div class="S2-card">
+                        <i class="S2-icon-card fa-solid fa-tree"></i>
+                        <h2 class="S2-titulo-card">REGENERAÇÃO FLORESTAL</h2>
+                        <p class="S2-text-card">Acompanhe a evolução da regeneração florestal das suas áreas e ativos florestais.</p>
+                    </div>
+
+                    <div class="S2-card">
+                        <i class="S2-icon-card fa-solid fa-search-location"></i>
+                        <h2 class="S2-titulo-card">USO E COBERTURA DO SOLO</h2>
+                        <p class="S2-text-card">Veja de forma histórica e acompanhe a evolução do uso e cobertura do solo das suas áreas de interesse.</p>
+                    </div>
+
+                    <div class="S2-card">
+                        <i class="S2-icon-card fa-solid fa-snowplow"></i>
+                        <h2 class="S2-titulo-card">DETECTE SUPRESSÃO VEGETAL</h2>
+                        <p class="S2-text-card">Seja notificado e acompanhe os alertas de possíveis áreas de supressão vegetal irregulares.</p>
+                    </div>
+                </div>
+
+                <div class="S2-box-btn">
+                    <a class="S2-btn btn-padrao" id="btn-texte-gratis" href="#">Teste grátis</a>
                 </div>
             </section>
         </div>
+
+        <!-- S3 = Seção Contato (quero conhecer) -->
+        <div class="S3-fundo">
+            <section class="container-limite S3-section-contato">
+                <div class="S3-box-esquerdo">
+                    <h1 class="S3-titulo">Somos simples!</h1>
+                    <h1 class="S3-titulo">Somos o futuro!</h1>
+
+                    <p class="S3-text">Veja exatamente como você consegue realizar a gestão dos seus ativos pela nossa plataforma</p>
+
+                    <div class="S3-box-btn">
+                        <a class="S3-btn btn-padrao btn-branco" id="btn-quero-conhecer" href="#">Quero conhecer</a>
+                    </div>
+                </div>
+
+                <div class="S3-box-direito">
+                    <iframe class="video" width="633" height="356" src="https://www.youtube.com/embed/MoUI3OEPT3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+
+        <!-- S4 = Seção Planos -->
+        <div class="S4-fundo">
+            <section class="container-limite S4-section-planos">
+                <h1 class="titulo-principal S4-titulo">Nossos planos</h1>
+
+                <div class="S4-card-planos">
+                    <div class="S4-card S4-card-menor">
+
+                        <div class="S4-topo-card">
+                            <h2 class="S4-titulo-card">Plano com imagens de menor resolução</h2>
+                        </div>
+
+                        <div class="S4-box-card">
+                            <ul class="S4-lista">
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <p>Visualise suas áreas no mapa</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-satellite"></i>
+                                    <p>Imagens de satélite atualizadas de menor resolução</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-bell"></i>
+                                    <p>Geração de alertas</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fab fa-whatsapp-square"></i>
+                                    <p>Envio de notificações de alertas por e-mail e whats</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-poll"></i>
+                                    <p>Indicadores de suas áreas</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-newspaper"></i>
+                                    <p>Relatórios</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-fire"></i>
+                                    <p>Monitoramento de potenciais focos de incêndio</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fab fa-rocketchat"></i>
+                                    <p>Suporte</p>
+                                </li>
+                            </ul>
+
+                            <h1 class="S4-preco">R$ 0,05 <span>/hectare</span> </h1>
+
+                            <div class="S4-box-btn">
+                                <a class="btn-padrao btn-preto S4-btn" id="btn-eu-quero" href="#">Eu quero</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="S4-card S4-card-melhor">
+                        <div class="S4-topo-card">
+                            <h2 class="S4-titulo-card">Plano com imagens de menor resolução</h2>
+                        </div>
+
+                        <div class="S4-box-card">
+                            <ul class="S4-lista">
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <p>Visualise suas áreas no mapa</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-satellite"></i>
+                                    <p>Imagens de satélite atualizadas de menor resolução</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-bell"></i>
+                                    <p>Geração de alertas</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fab fa-whatsapp-square"></i>
+                                    <p>Envio de notificações de alertas por e-mail e whats</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-poll"></i>
+                                    <p>Indicadores de suas áreas</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-newspaper"></i>
+                                    <p>Relatórios</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fas fa-fire"></i>
+                                    <p>Monitoramento de potenciais focos de incêndio</p>
+                                </li>
+                                <li class="S4-lista-item">
+                                    <i class="fab fa-rocketchat"></i>
+                                    <p>Suporte</p>
+                                </li>
+                            </ul>
+
+                            <h1 class="S4-preco">R$ 0,05 <span>/hectare</span> </h1>
+
+                            <div class="S4-box-btn">
+                                <a class="btn-padrao S4-btn" id="btn-eu-quero" href="#">Eu quero</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- S5 - Seção Blog -->
+        <div class="S5-fundo">
+            <section class="container-limite S5-section-blog">
+                <h1 class="titulo-principal S5-titulo">Blog</h1>
+
+                <div class="S5-box-card">
+
+                    <div class="S5-card-blog">
+                        <img class="S5-img-destaque" src="img/img-blog-1.jpeg" alt="[Imagem Destaque Blog]">
+
+                        <div class="S5-wrappe-conteudo">
+                            <h2 class="S5-titulo-blog">OS CAMINHOS PARA UMA MINERAÇÃO SUSTENTÁVEL</h2>
+                            <span class="S5-data-blog">19 de maio de 2022</span>
+                            <p class="S5-text-blog">A mineração é uma atividade essencial para a produção de itens indispensáveis aos seres humanos, mas quando desenvolvida de forma inadequada pode causar grandes impactos ambientais.</p>
+                            <div class="S5-box-btn">
+                                <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="S5-card-blog">
+                        <img class="S5-img-destaque" src="img/img-blog-2.jpeg" alt="[Imagem Destaque Blog]">
+
+                        <div class="S5-wrappe-conteudo">
+                            <h2 class="S5-titulo-blog">DESCARBONIZAÇÃO: UMA ALTERNATIVA VIÁVEL PARA MINERAÇÃO?</h2>
+                            <span class="S5-data-blog">12 de maio de 2022</span>
+                            <p class="S5-text-blog">A descarbonização da indústria implica em achar meios que minimizem a queima de gases efeito estufa para a geração de energia.</p>
+                            <div class="S5-box-btn">
+                                <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="S5-card-blog">
+                        <img class="S5-img-destaque" src="img/img-blog-3.jpeg" alt="[Imagem Destaque Blog]">
+
+                        <div class="S5-wrappe-conteudo">
+                            <h2 class="S5-titulo-blog">TUDO O QUE VOCÊ PRECISA SABER SOBRE USO E COBERTURA DO SOLO</h2>
+                            <span class="S5-data-blog">5 de maio de 2022</span>
+                            <p class="S5-text-blog">Práticas de gestão do território e formas de uso do solo tem grande impacto sobre os ecossistemas e os recursos naturais incluindo a água e o solo.</p>
+                            <div class="S5-box-btn">
+                                <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="S5-card-blog">
+                        <img class="S5-img-destaque" src="img/img-blog-1.jpeg" alt="[Imagem Destaque Blog]">
+
+                        <div class="S5-wrappe-conteudo">
+                            <h2 class="S5-titulo-blog">OS CAMINHOS PARA UMA MINERAÇÃO SUSTENTÁVEL</h2>
+                            <span class="S5-data-blog">19 de maio de 2022</span>
+                            <p class="S5-text-blog">A mineração é uma atividade essencial para a produção de itens indispensáveis aos seres humanos, mas quando desenvolvida de forma inadequada pode causar grandes impactos ambientais.</p>
+                            <div class="S5-box-btn">
+                                <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- S6 = Seção Depoimentos -->
+        <div class="S6-fundo">
+            <section class="container-limite S6-section-depoimentos">
+                <h1 class="titulo-principal S6-titulo">Depoimentos</h1>
+
+                <div class="S6-box-cards">
+
+                    <div class="S6-card-depoimento">
+                        <div class="S6-wrapper-perfil">
+                            <img class="S6-img-foto" src="img/davi.jpeg" alt="[Foto do perfil Depoimentos]">
+
+                            <div>
+                                <p class="S6-nome">Davi Gonçalves</p>
+                                <div class="S6-avaliacao">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="S6-funcao">(Analista de Inovação) Anglo America</span>
+                            </div>
+                        </div>
+
+                        <p class="S6-depoimento">
+                            A GeoInova se mostrou uma empresa muito parceira da Anglo American, ela atendeu os requisitos e entregou além do esperado, nos ajudou a elevar o patamar de monitoramento. Saímos de um estágio de monitoramento totalmente reativo para algo muito mais proativo e imediato.
+                        </p>
+
+                    </div>
+
+                    <div class="S6-card-depoimento">
+                        <div class="S6-wrapper-perfil">
+                            <img class="S6-img-foto" src="img/greyce.jpeg" alt="[Foto do perfil Depoimentos]">
+
+                            <div>
+                                <p class="S6-nome">Greyce Franzmann</p>
+                                <div class="S6-avaliacao">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="S6-funcao">(Open Innovation) Vale</span>
+                            </div>
+                        </div>
+
+                        <p class="S6-depoimento">
+						    Para nós da Vale é uma proposta de valor bem alta, foi uma parceria muito fluida em todos os sentidos, pra nós só elogios. As entregas são feitas com muita assertividade e rapidez. A solução foi uma oportunidade para a Vale tomar decisões mais assertivas. Esperamos escalar a solução o quanto antes dentro da Vale.
+                        </p>
+
+                    </div>
+
+                    <div class="S6-card-depoimento">
+                        <div class="S6-wrapper-perfil">
+                            <img class="S6-img-foto" src="img/jackson.jpeg" alt="[Foto do perfil Depoimentos]">
+
+                            <div>
+                                <p class="S6-nome">Jackson Reis</p>
+                                <div class="S6-avaliacao">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="S6-funcao">(Especialista em Inovação) Gerdau</span>
+                            </div>
+                        </div>
+
+                        <p class="S6-depoimento">
+						    A solução foi algo totalmente disruptivo daquilo que esperávamos. A parceria foi sensacional, uma empresa super aberta a melhorar o produto e suas entregas. A principal característica é o comprometimento, foi transformador trabalhar com a empresa.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- S7 = Seção Materia  -->
     </section>
 </body>
 

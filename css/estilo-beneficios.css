@@ -1,4 +1,4 @@
-.fundo-S2 {
+.S2-fundo {
     width: 100%;
     height: 1000px;
     background-image: url('../img/bg-1.jpg');
@@ -8,39 +8,36 @@
     background-attachment: fixed;
 }
 
-.section-beneficios {
+.S2-section-beneficios {
     text-align: center;
     padding: 100px 20px;
 }
 
 .S2-titulo {
-    font-size: 32px;
-    font-weight: 700;
     color: #fff;
-    text-transform: uppercase;
     margin-bottom: 40px;
 }
 
-.box-card {
+.S2-box-card {
     display: flex;
     gap: 15px;
     margin-bottom: 15px;
 }
 
-.card {
+.S2-card {
     background-color: #fff;
     border-radius: 20px;
     padding: 40px;
     width: 33.333%;
 }
 
-.icon-card {
+.S2-icon-card {
     font-size: 82px;
     color: #005ff6;
     margin-bottom: 15px;
 }
 
-.titulo-card {
+.S2-titulo-card {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -48,6 +45,6 @@
     margin-bottom: 20px;
 }
 
-.box-btn {
+.S2-box-btn {
     margin-top: 50px;
 }
