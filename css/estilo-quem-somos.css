@@ -1,7 +1,7 @@
 /* Seção 1 - Quem Somos */
 .fundo-S1 {
     width: 100%;
-    min-height: 520px;
+    min-height: 612px;
     background-image: url('../img/bg-4.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@
 }
 .S1-section-quem-somos {
     display: flex;
+    gap: 10px;
     width: 100%;
     padding: 100px 20px;
 }
@@ -19,7 +20,7 @@
 }
 
 .S1-img {
-    width: 475px;
+    width: 580px;
 }
 
 /* lado Direito */
