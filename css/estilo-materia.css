@@ -1,0 +1,50 @@
+.S7-fundo {
+    width: 100%;
+    height: 490px;
+    background-color: #EFF5FF;
+}
+
+.S7-section-materia {
+    display: flex;
+    gap: 25px;
+    padding: 60px 20px;
+}
+
+.S7-box {
+    width: 50%;
+    align-self: center;
+
+}
+
+.S7-titulo {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.S7-text {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.S7-carrossel {
+    width: 100%;
+    height: 152px;
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+
+.S7-img-carrossel {
+    width: 31%;
+    height: 115px;
+    border-radius: 10px;
+}
+
+.S7-video {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}

@@ -103,3 +103,8 @@
     padding: 15px 120px !important;
 
 }
+
+.header-content-right {
+    align-self: flex-end;
+}
+
