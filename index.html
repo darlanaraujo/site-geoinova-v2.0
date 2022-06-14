@@ -27,7 +27,7 @@
     <script src="https://kit.fontawesome.com/109d143e9b.js" crossorigin="anonymous"></script>
 
     <!-- Fonts Google -->
-   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon-geoinova.png" type="image/x-icon">
@@ -39,9 +39,11 @@
     <section class="fundo-topo">
 
         <header class="header container-limite">
-            <nav class="header-top">
+
+            <nav class="header-top JS-header-top-fixo">
                 <figure class="logo">
-                    <img src="img/geoinovalogo.png" alt="[Logo GeoInova]" title="Logo GeoInova">
+                    <img class="JS-logo-header-padrao" src="img/logo-geoinova-br.png" alt="[Logo GeoInova]"
+                        title="Logo GeoInova">
                 </figure>
 
                 <ul class="menu-principal">
@@ -57,14 +59,34 @@
                 </ul>
             </nav>
 
-            <section class="header-content">
+            <nav class="header-top JS-header-top-padrao">
+                <figure class="logo">
+                    <img class="JS-logo-header-padrao" src="img/geoinovalogo.png" alt="[Logo GeoInova]"
+                        title="Logo GeoInova">
+                </figure>
+
+                <ul class="menu-principal">
+                    <li><a href="#quem-somos" id="quem-somos" class="menu">Quem Somos?</a></li>
+                    <li><a href="#beneficio" id="beneficio" class="menu">Benefícios</a></li>
+                    <li><a href="#planos" id="planos" class="menu">Planos</a></li>
+                    <li><a href="#blog" id="blog" class="menu">Blog</a></li>
+                    <li><a href="#depoimentos" id="depoimentos" class="menu">Depoimentos</a></li>
+                    <li><a href="#faq" id="faq" class="menu">FAQ</a></li>
+                    <li><a href="#trabalhe-conosco" id="trabalhe-conosco" class="menu">Trabalhe Conosco</a></li>
+                    <li><a href="#" id="linkedin" class="menu-social"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" id="instagram" class="menu-social"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+
+            <section class="header-content JS-header-content">
                 <div class="header-content-leaft">
                     <h1 class="header-content-title">
                         Mineração com Segurança
                     </h1>
 
                     <p class="header-content-text">
-                        Monitore sua área e obtenha uma visão digital sobre aspectos legais e ambientais. Confira abaixo como podemos te ajudar.
+                        Monitore sua área e obtenha uma visão digital sobre aspectos legais e ambientais. Confira abaixo
+                        como podemos te ajudar.
                     </p>
 
                     <a class="header-content-btn btn-padrao" id="btn-saiba-mais" href="#">Saiba mais</a>
@@ -83,11 +105,11 @@
     </section>
 
     <section class="container">
-        
+
         <!-- S1 = Seção 1 -->
         <section class="fundo-S1">
             <div class="container-limite S1-section-quem-somos">
-                
+
                 <div class="S1-box-img">
                     <img class="S1-img" src="img/img-1-1-1.jpg" alt="[Imagem destaque seção Quem Somos]">
                 </div>
@@ -97,7 +119,13 @@
                     <h1 class="titulo-principal S1-titulo">Somos a Inspiração</h1>
                     <h1 class="titulo-principal S1-titulo">Somos a Mudança</h1>
 
-                    <p class="S1-text">Nossa empresa existe para melhorar o desempenho de sua gestão de áreas e otimizar o seu tempo. Através de muita pesquisa e estudos sobre sensoriamento remoto, conseguimos <strong>monitorar grandes áreas,</strong> gerar acompanhamento de áreas de <strong>regeneração florestal, uso e cobertura do solo,</strong> potenciais <strong>focos de incêndio</strong> e <strong>prevenimos problemas</strong> como <strong>construções irregulares, desmatamento e garimpo ilegal.</strong></p>
+                    <p class="S1-text">Nossa empresa existe para melhorar o desempenho de sua gestão de áreas e otimizar
+                        o seu tempo. Através de muita pesquisa e estudos sobre sensoriamento remoto, conseguimos
+                        <strong>monitorar grandes áreas,</strong> gerar acompanhamento de áreas de <strong>regeneração
+                            florestal, uso e cobertura do solo,</strong> potenciais <strong>focos de incêndio</strong> e
+                        <strong>prevenimos problemas</strong> como <strong>construções irregulares, desmatamento e
+                            garimpo ilegal.</strong>
+                    </p>
                 </div>
             </div>
         </section>
@@ -111,19 +139,22 @@
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-satellite"></i>
                         <h2 class="S2-titulo-card">IMAGENS ATUALIZADAS</h2>
-                        <p class="S2-text-card">Você possui acesso a um repositório de imagens de satélite atualizadas de forma semanal.</p>
+                        <p class="S2-text-card">Você possui acesso a um repositório de imagens de satélite atualizadas
+                            de forma semanal.</p>
                     </div>
 
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-bell"></i>
                         <h2 class="S2-titulo-card">MONITORAMENTO DA CAVA</h2>
-                        <p class="S2-text-card">Na plataforma GeoInova você acompanha a evolução da sua cava em relação ao direito minerário.</p>
+                        <p class="S2-text-card">Na plataforma GeoInova você acompanha a evolução da sua cava em relação
+                            ao direito minerário.</p>
                     </div>
 
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-draw-polygon"></i>
                         <h2 class="S2-titulo-card">DIREITO MINERAL</h2>
-                        <p class="S2-text-card">Monitore seus direitos minerais e seja alertado sobre construções irregulares, garimpos ilegais e muito mais.</p>
+                        <p class="S2-text-card">Monitore seus direitos minerais e seja alertado sobre construções
+                            irregulares, garimpos ilegais e muito mais.</p>
                     </div>
                 </div>
 
@@ -131,19 +162,22 @@
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-tree"></i>
                         <h2 class="S2-titulo-card">REGENERAÇÃO FLORESTAL</h2>
-                        <p class="S2-text-card">Acompanhe a evolução da regeneração florestal das suas áreas e ativos florestais.</p>
+                        <p class="S2-text-card">Acompanhe a evolução da regeneração florestal das suas áreas e ativos
+                            florestais.</p>
                     </div>
 
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-search-location"></i>
                         <h2 class="S2-titulo-card">USO E COBERTURA DO SOLO</h2>
-                        <p class="S2-text-card">Veja de forma histórica e acompanhe a evolução do uso e cobertura do solo das suas áreas de interesse.</p>
+                        <p class="S2-text-card">Veja de forma histórica e acompanhe a evolução do uso e cobertura do
+                            solo das suas áreas de interesse.</p>
                     </div>
 
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-snowplow"></i>
                         <h2 class="S2-titulo-card">DETECTE SUPRESSÃO VEGETAL</h2>
-                        <p class="S2-text-card">Seja notificado e acompanhe os alertas de possíveis áreas de supressão vegetal irregulares.</p>
+                        <p class="S2-text-card">Seja notificado e acompanhe os alertas de possíveis áreas de supressão
+                            vegetal irregulares.</p>
                     </div>
                 </div>
 
@@ -160,7 +194,8 @@
                     <h1 class="S3-titulo">Somos simples!</h1>
                     <h1 class="S3-titulo">Somos o futuro!</h1>
 
-                    <p class="S3-text">Veja exatamente como você consegue realizar a gestão dos seus ativos pela nossa plataforma</p>
+                    <p class="S3-text">Veja exatamente como você consegue realizar a gestão dos seus ativos pela nossa
+                        plataforma</p>
 
                     <div class="S3-box-btn">
                         <a class="S3-btn btn-padrao btn-branco" id="btn-quero-conhecer" href="#">Quero conhecer</a>
@@ -168,7 +203,10 @@
                 </div>
 
                 <div class="S3-box-direito">
-                    <iframe class="video" width="633" height="356" src="https://www.youtube.com/embed/MoUI3OEPT3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video" width="593" height="356" src="https://www.youtube.com/embed/MoUI3OEPT3g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -297,7 +335,9 @@
                         <div class="S5-wrappe-conteudo">
                             <h2 class="S5-titulo-blog">OS CAMINHOS PARA UMA MINERAÇÃO SUSTENTÁVEL</h2>
                             <span class="S5-data-blog">19 de maio de 2022</span>
-                            <p class="S5-text-blog">A mineração é uma atividade essencial para a produção de itens indispensáveis aos seres humanos, mas quando desenvolvida de forma inadequada pode causar grandes impactos ambientais.</p>
+                            <p class="S5-text-blog">A mineração é uma atividade essencial para a produção de itens
+                                indispensáveis aos seres humanos, mas quando desenvolvida de forma inadequada pode
+                                causar grandes impactos ambientais.</p>
                             <div class="S5-box-btn">
                                 <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
                             </div>
@@ -310,7 +350,8 @@
                         <div class="S5-wrappe-conteudo">
                             <h2 class="S5-titulo-blog">DESCARBONIZAÇÃO: UMA ALTERNATIVA VIÁVEL PARA MINERAÇÃO?</h2>
                             <span class="S5-data-blog">12 de maio de 2022</span>
-                            <p class="S5-text-blog">A descarbonização da indústria implica em achar meios que minimizem a queima de gases efeito estufa para a geração de energia.</p>
+                            <p class="S5-text-blog">A descarbonização da indústria implica em achar meios que minimizem
+                                a queima de gases efeito estufa para a geração de energia.</p>
                             <div class="S5-box-btn">
                                 <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
                             </div>
@@ -323,7 +364,8 @@
                         <div class="S5-wrappe-conteudo">
                             <h2 class="S5-titulo-blog">TUDO O QUE VOCÊ PRECISA SABER SOBRE USO E COBERTURA DO SOLO</h2>
                             <span class="S5-data-blog">5 de maio de 2022</span>
-                            <p class="S5-text-blog">Práticas de gestão do território e formas de uso do solo tem grande impacto sobre os ecossistemas e os recursos naturais incluindo a água e o solo.</p>
+                            <p class="S5-text-blog">Práticas de gestão do território e formas de uso do solo tem grande
+                                impacto sobre os ecossistemas e os recursos naturais incluindo a água e o solo.</p>
                             <div class="S5-box-btn">
                                 <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
                             </div>
@@ -336,7 +378,9 @@
                         <div class="S5-wrappe-conteudo">
                             <h2 class="S5-titulo-blog">OS CAMINHOS PARA UMA MINERAÇÃO SUSTENTÁVEL</h2>
                             <span class="S5-data-blog">19 de maio de 2022</span>
-                            <p class="S5-text-blog">A mineração é uma atividade essencial para a produção de itens indispensáveis aos seres humanos, mas quando desenvolvida de forma inadequada pode causar grandes impactos ambientais.</p>
+                            <p class="S5-text-blog">A mineração é uma atividade essencial para a produção de itens
+                                indispensáveis aos seres humanos, mas quando desenvolvida de forma inadequada pode
+                                causar grandes impactos ambientais.</p>
                             <div class="S5-box-btn">
                                 <a class="btn-padrao S5-btn-blog" id="btn-leia-mais" href="#">Leia mais</a>
                             </div>
@@ -372,7 +416,10 @@
                         </div>
 
                         <p class="S6-depoimento">
-                            A GeoInova se mostrou uma empresa muito parceira da Anglo American, ela atendeu os requisitos e entregou além do esperado, nos ajudou a elevar o patamar de monitoramento. Saímos de um estágio de monitoramento totalmente reativo para algo muito mais proativo e imediato.
+                            A GeoInova se mostrou uma empresa muito parceira da Anglo American, ela atendeu os
+                            requisitos e entregou além do esperado, nos ajudou a elevar o patamar de monitoramento.
+                            Saímos de um estágio de monitoramento totalmente reativo para algo muito mais proativo e
+                            imediato.
                         </p>
 
                     </div>
@@ -395,7 +442,10 @@
                         </div>
 
                         <p class="S6-depoimento">
-						    Para nós da Vale é uma proposta de valor bem alta, foi uma parceria muito fluida em todos os sentidos, pra nós só elogios. As entregas são feitas com muita assertividade e rapidez. A solução foi uma oportunidade para a Vale tomar decisões mais assertivas. Esperamos escalar a solução o quanto antes dentro da Vale.
+                            Para nós da Vale é uma proposta de valor bem alta, foi uma parceria muito fluida em todos os
+                            sentidos, pra nós só elogios. As entregas são feitas com muita assertividade e rapidez. A
+                            solução foi uma oportunidade para a Vale tomar decisões mais assertivas. Esperamos escalar a
+                            solução o quanto antes dentro da Vale.
                         </p>
 
                     </div>
@@ -418,7 +468,9 @@
                         </div>
 
                         <p class="S6-depoimento">
-						    A solução foi algo totalmente disruptivo daquilo que esperávamos. A parceria foi sensacional, uma empresa super aberta a melhorar o produto e suas entregas. A principal característica é o comprometimento, foi transformador trabalhar com a empresa.
+                            A solução foi algo totalmente disruptivo daquilo que esperávamos. A parceria foi
+                            sensacional, uma empresa super aberta a melhorar o produto e suas entregas. A principal
+                            característica é o comprometimento, foi transformador trabalhar com a empresa.
                         </p>
 
                     </div>
@@ -433,7 +485,8 @@
 
                 <div class="S7-box S7-box-esquerdo">
                     <h1 class="S7-titulo">O que estão falando sobre a geoinova e suas soluções</h1>
-                    <p class="S7-text">Veja as matérias e notícias que a imprensa divulgou sobre a Geoinova e sua solução Inovamaps. Produto que tem gerado economia para grande indústrias.</p>
+                    <p class="S7-text">Veja as matérias e notícias que a imprensa divulgou sobre a Geoinova e sua
+                        solução Inovamaps. Produto que tem gerado economia para grande indústrias.</p>
 
                     <div class="S7-carrossel">
                         <img class="S7-img-carrossel" src="img/logo-abdi.jpeg" alt="[Logo ABDI]">
@@ -444,7 +497,10 @@
                 </div>
 
                 <div class="S7-box S7-box-direito">
-                    <iframe class="S7-video" width="560" height="315" src="https://www.youtube.com/embed/I3PIZig8l4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="S7-video" width="560" height="315" src="https://www.youtube.com/embed/I3PIZig8l4Y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
 
             </div>
@@ -474,32 +530,46 @@
                 </div>
 
                 <div class="S9-box S9-box-direito">
-                    <dl class="S9-faq-lista">
-                        <dt class="S9-pergunta">Com que frênquencia as imagens são atualizadas?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Assim que novas imagens são disponibilizadas pelos nossos parceiros.</dd>
+                    <dl class="S9-faq-lista JS-S9-faq-lista">
+                        <dt class="S9-pergunta JS-S9-pergunta">Com que frênquencia as imagens são atualizadas?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Assim que novas imagens são disponibilizadas pelos nossos
+                            parceiros.
+                        </dd>
 
-                        <dt class="S9-pergunta">Qual o prazo de implantação das áreas?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">O prazo são de até 15 dias.</dd>
+                        <dt class="S9-pergunta JS-S9-pergunta">Qual o prazo de implantação das áreas?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">O prazo são de até 15 dias.</dd>
 
-                        <dt class="S9-pergunta">Terei acompanhamento da implantação?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Sim, nossa equipe de sucesso do cliente e geólogos irá acompanhar sua implantação.</dd>
+                        <dt class="S9-pergunta JS-S9-pergunta">Terei acompanhamento da implantação?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Sim, nossa equipe de sucesso do cliente e geólogos irá
+                            acompanhar sua
+                            implantação.</dd>
 
-                        <dt class="S9-pergunta">Quantos usuários poderão usar o sistema ao mesmo tempo?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Até 10 usuários.</dd>
+                        <dt class="S9-pergunta JS-S9-pergunta">Quantos usuários poderão usar o sistema ao mesmo tempo?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Até 10 usuários.</dd>
                     </dl>
 
-                    <dl class="S9-faq-lista">
-                        <dt class="S9-pergunta">A plataforma fica instalidada onde?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Nossa infraestrutura é alocada em cloud das maiores empresas de tecnologia.</dd>
+                    <dl class="S9-faq-lista JS-S9-faq-lista">
+                        <dt class="S9-pergunta JS-S9-pergunta">A plataforma fica instalidada onde?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Nossa infraestrutura é alocada em cloud das maiores
+                            empresas de tecnologia.</dd>
 
-                        <dt class="S9-pergunta">Posso pagar anualmente em vez de mensalmente?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Sim. Basta fazer contato com nosso Time e solicitar essa condição especial.</dd>
+                        <dt class="S9-pergunta JS-S9-pergunta">Posso pagar anualmente em vez de mensalmente?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Sim. Basta fazer contato com nosso Time e solicitar essa
+                            condição especial.</dd>
 
-                        <dt class="S9-pergunta">Posso usar o OPEX para contratar o serviço?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Sim.</dd>
+                        <dt class="S9-pergunta JS-S9-pergunta">Posso usar o OPEX para contratar o serviço?<i
+                                class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Sim.</dd>
 
-                        <dt class="S9-pergunta">A plataforma tem proteções de sigilo e confidencialidade?<i class="fas fa-plus"></i></dt>
-                        <dd class="S9-resposta">Sim.</dd>
+                        <dt class="S9-pergunta JS-S9-pergunta">A plataforma tem proteções de sigilo e
+                            confidencialidade?<i class="fas fa-plus"></i></dt>
+                        <dd class="S9-resposta JS-S9-resposta">Sim.</dd>
                     </dl>
                 </div>
             </div>
@@ -517,9 +587,12 @@
                 <div class="S10-wrapper-footer">
 
                     <div class="S10-wrapper-end-footer">
-                        <a class="S10-btn-end" href="https://www.google.com/maps/place/Geoinova+Solu%C3%A7%C3%B5es/@-16.7104342,-49.2408832,15z/data=!4m5!3m4!1s0x0:0x611215d63801f6ee!8m2!3d-16.7104263!4d-49.240883?sa=X&ved=2ahUKEwjxu8-syZ31AhX1qJUCHYr7DVoQ_BJ6BAgrEAU&shorturl=1" target="_blank">
+                        <a class="S10-btn-end"
+                            href="https://www.google.com/maps/place/Geoinova+Solu%C3%A7%C3%B5es/@-16.7104342,-49.2408832,15z/data=!4m5!3m4!1s0x0:0x611215d63801f6ee!8m2!3d-16.7104263!4d-49.240883?sa=X&ved=2ahUKEwjxu8-syZ31AhX1qJUCHYr7DVoQ_BJ6BAgrEAU&shorturl=1"
+                            target="_blank">
                             <i class="fa-solid fa-location-dot"></i>
-                            <span>Espaço de Inovação Gyntec - Av. Pedro Paulo de Souza, número 3 - St. Goiânia 2, Goiânia/GO, 74663-520</span>
+                            <span>Espaço de Inovação Gyntec - Av. Pedro Paulo de Souza, número 3 - St. Goiânia 2,
+                                Goiânia/GO, 74663-520</span>
                         </a>
 
                         <p class="S10-cnpj">CNPJ: 11.976.961/0001-52</p>
@@ -535,10 +608,11 @@
                                 <li><a href="#blog" id="blog" class="menu-footer">Blog</a></li>
                                 <li><a href="#depoimentos" id="depoimentos" class="menu-footer">Depoimentos</a></li>
                                 <li><a href="#faq" id="faq" class="menu-footer">FAQ</a></li>
-                                <li><a href="#trabalhe-conosco" id="trabalhe-conosco" class="menu-footer">Trabalhe Conosco</a></li>
+                                <li><a href="#trabalhe-conosco" id="trabalhe-conosco" class="menu-footer">Trabalhe
+                                        Conosco</a></li>
                             </ul>
                         </nav>
-                        
+
                         <div class="S10-wrapper-emoj">
                             <img class="S10-emoj" src="img/emoji-1.png" alt="[Imagem Emoj Feliz]">
                         </div>
@@ -546,21 +620,29 @@
 
                     <div class="S10-wrapper-contato-footer">
                         <p class="S10-text">(Fale conosco)</p>
-                        
-                        <a class="S10-btn-what" href="https://api.whatsapp.com/send/?phone=5562998671501&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i> (62) 9 9867-1501</a>
-                        <a class="S10-btn-email" href="mailto:comercial@geoinova.com.br" target="_blank"><i class="fa-solid fa-envelope-open-text"></i>comercial@geoinova.com.br</a>
+
+                        <a class="S10-btn-what"
+                            href="https://api.whatsapp.com/send/?phone=5562998671501&text&app_absent=0"
+                            target="_blank"><i class="fab fa-whatsapp"></i> (62) 9 9867-1501</a>
+                        <a class="S10-btn-email" href="mailto:comercial@geoinova.com.br" target="_blank"><i
+                                class="fa-solid fa-envelope-open-text"></i>comercial@geoinova.com.br</a>
 
                     </div>
-                    
+
                 </div>
 
                 <div class="S10-wrapper-midias">
                     <nav>
                         <ul class="S10-menu-midias">
-                            <li><a class="menu-midias" href="https://br.linkedin.com/company/geoinovaoficial?original_referer=" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a class="menu-midias" href="https://www.facebook.com/geoinovaoficial" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                            <li><a class="menu-midias" href="https://www.instagram.com/geoinovaoficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="menu-midias" href="https://www.youtube.com/channel/UCWSrPbEkeIORHK8mXHnsVCw" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a class="menu-midias"
+                                    href="https://br.linkedin.com/company/geoinovaoficial?original_referer="
+                                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a class="menu-midias" href="https://www.facebook.com/geoinovaoficial"
+                                    target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a class="menu-midias" href="https://www.instagram.com/geoinovaoficial/"
+                                    target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="menu-midias" href="https://www.youtube.com/channel/UCWSrPbEkeIORHK8mXHnsVCw"
+                                    target="_blank"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </nav>
                 </div>

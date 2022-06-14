@@ -12,7 +12,7 @@
 
 .S9-box-esquerdo {
     width: 30%;
-    
+
 }
 
 .S9-titulo {
@@ -51,8 +51,12 @@
 }
 
 .S9-resposta {
-    /* display: none; */
     padding: 15px 15px 25px 15px;
     border-bottom: solid 1px #005FF6;
     margin-bottom: 10px;
+}
+
+/* Elementos JS */
+.JS-S9-resposta {
+    display: none;
 }

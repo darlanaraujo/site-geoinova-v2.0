@@ -38,8 +38,12 @@
 
 .S3-box-direito {
     width: 50%;
+    align-self: center;
+    align-items: center;
 }
 
 .video {
     border-radius: 30px;
+    align-self: center;
+    align-items: center;
 }
