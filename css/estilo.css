@@ -13,14 +13,14 @@
 
 /* Definições do limite das seções */
 .container {
-    position: relative;
+    /* position: relative; */
 }
 
 .container-limite {
-    position: absolute;
+    /* position: absolute; */
     max-width: 1250px;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
     margin: 0 auto;
 }
 

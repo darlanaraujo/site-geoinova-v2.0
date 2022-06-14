@@ -1,12 +1,12 @@
 /* Seção 1 - Quem Somos */
 .fundo-S1 {
     width: 100%;
-    min-height: 612px;
     background-image: url('../img/bg-4.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .S1-section-quem-somos {
     display: flex;
     gap: 10px;

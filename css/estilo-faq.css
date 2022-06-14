@@ -1,6 +1,5 @@
 .S9-fundo {
     width: 100%;
-    height: 780px;
     display: inline-block;
     background: #080710;
 }
@@ -9,8 +8,6 @@
     padding: 80px 20px;
     display: flex;
     color: #fff;
-    /* background-color: #080710; */
-    border: solid 1px red;
 }
 
 .S9-box-esquerdo {
@@ -43,6 +40,7 @@
     background-color: #005FF6;
     margin-bottom: 10px;
     position: relative;
+    cursor: pointer;
 }
 
 .S9-pergunta i {
