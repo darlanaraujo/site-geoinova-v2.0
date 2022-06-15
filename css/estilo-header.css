@@ -113,8 +113,8 @@
 /* Elementos JS */
 .JS-header-top-fixo {
     display: none;
-    transform: translate3d(-80px, 0, 0);
-    transition: 1.5s;
+    transition: .5s;
+    
 }
 
 .JS-header-top-fixo.active {
@@ -125,7 +125,7 @@
     left: 0;
     padding: 0 20px;
     z-index: 1000;
-    transform: translate3d(0, 0, 0);
+    animation: fade-in .5s forwards;
 }
 
 .JS-header-top-fixo.active .menu-principal .menu:hover {
@@ -136,4 +136,27 @@
     background-color: #fff;
     color: #005FF6;
     border-radius: 8px;
+}
+
+/* Animações */
+@keyframes fade-in {
+    from {
+        transform: translate3d(0, -80px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    to {
+        transform: translate3d(0, -80px, 0);
+        opacity: 0;
+    }
 }

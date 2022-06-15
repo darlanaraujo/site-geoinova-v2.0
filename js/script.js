@@ -1,16 +1,18 @@
-const menuFixo = document.querySelector('.JS-header-top-fixo');
-const rolagem = window.innerHeight;
-
-function menuTopo() {
-    if(rolagem >= 120) {
-        menuFixo.classList.add('active');
-    } else {
-        menuFixo.classList.remove('active');
-    }
+function initMenuFixo() {
+    window.addEventListener('scroll', () => {
+        const menuFixo = document.querySelector('.JS-header-top-fixo');
+    
+        let rolagem = window.pageYOffset;
+    
+        if(rolagem >= 120) {
+            menuFixo.classList.add('active');
+        } else {
+            menuFixo.classList.remove('active');
+        }
+    });
 }
 
-// window.addEventListener('scroll', menuTopo);
+initMenuFixo();
 
 
 
-console.log(rolagem);
