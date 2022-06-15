@@ -1,10 +1,14 @@
+// ===================================
+// MENU FIXO
+// ===================================
+
 function initMenuFixo() {
     window.addEventListener('scroll', () => {
-        const menuFixo = document.querySelector('.JS-header-top-fixo');
+        const menuFixo = document.querySelector('.js-header-top-fixo');
     
         let rolagem = window.pageYOffset;
     
-        if(rolagem >= 120) {
+        if(rolagem >= 150) {
             menuFixo.classList.add('active');
         } else {
             menuFixo.classList.remove('active');
@@ -13,6 +17,10 @@ function initMenuFixo() {
 }
 
 initMenuFixo();
+
+// ===================================
+// ANIMAÇÃO SEÇÃO QUEM SOMOS
+// ===================================
 
 
 
