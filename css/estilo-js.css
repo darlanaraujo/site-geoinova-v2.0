@@ -1,0 +1,76 @@
+/* ========== MENU FIXO ========== */
+.js-header-top-fixo {
+    display: flex;
+    background-color: #005FF6;
+    position: fixed;
+    padding: 0 20px;
+    z-index: 1000;
+    animation: fade-out .3s forwards;
+}
+
+.js-header-top-fixo.active {
+    animation: fade-in .5s forwards;
+}
+
+.js-header-top-fixo.active .menu-principal .menu:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.js-header-top-fixo.active .menu-principal .menu-social:hover {
+    background-color: #fff;
+    color: #005FF6;
+    border-radius: 8px;
+}
+
+
+/* ========== ANIMAÇÃO COM SCROLL ========== */
+.js-move.js-move-left {
+    transform: translate3d(-300px, 0, 0);
+    opacity: 0;
+    transition: 1s;
+}
+
+.js-move.active.js-move-left {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.js-move.js-move-right {
+    transform: translate3d(300px, 0, 0);
+    opacity: 0;
+    transition: 1s;
+}
+
+.js-move.active.js-move-right {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.js-move.js-move-top {
+    transform: translate3d(0, -300px, 0);
+    opacity: 0;
+    transition: 1s;
+}
+
+.js-move.active.js-move-top {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.js-move.js-move-bottom {
+    transform: translate3d(0, 300px, 0);
+    opacity: 0;
+    transition: 1s;
+}
+
+.js-move.active.js-move-bottom {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
+.js-move.active.js-move-trepida {
+    animation: trepida;
+    animation-duration: .2s;
+    animation-iteration-count: 5;
+}

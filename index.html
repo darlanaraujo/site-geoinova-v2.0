@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/estilo-clientes.css">
     <link rel="stylesheet" href="css/estilo-faq.css">
     <link rel="stylesheet" href="css/estilo-footer.css">
+    <link rel="stylesheet" href="css/estilo-js.css">
+    <link rel="stylesheet" href="css/estilo-animacoes.css">
 
     <!-- Script -->
     <script src="js/script.js" defer></script>
@@ -113,7 +115,7 @@
             <div class="container-limite S1-section-quem-somos">
 
                 <div class="S1-box-img">
-                    <img class="S1-img js-s1-img" src="img/img-1-1-1.jpg" alt="[Imagem destaque seção Quem Somos]">
+                    <img class="S1-img js-move js-move-left" src="img/img-1-1-1.jpg" alt="[Imagem destaque seção Quem Somos]">
                 </div>
                 <div class="S1-text-quem-somos">
                     <h3 class="S1-titulo-menu">Quem Somos?</h3>
@@ -138,21 +140,21 @@
                 <h1 class="S2-titulo titulo-principal">Porque podemos te ajudar</h1>
 
                 <div class="S2-box-card">
-                    <div class="S2-card">
+                    <div class="S2-card js-move js-move-bottom">
                         <i class="S2-icon-card fa-solid fa-satellite"></i>
                         <h2 class="S2-titulo-card">IMAGENS ATUALIZADAS</h2>
                         <p class="S2-text-card">Você possui acesso a um repositório de imagens de satélite atualizadas
                             de forma semanal.</p>
                     </div>
 
-                    <div class="S2-card">
+                    <div class="S2-card js-move js-move-top">
                         <i class="S2-icon-card fa-solid fa-bell"></i>
                         <h2 class="S2-titulo-card">MONITORAMENTO DA CAVA</h2>
                         <p class="S2-text-card">Na plataforma GeoInova você acompanha a evolução da sua cava em relação
                             ao direito minerário.</p>
                     </div>
 
-                    <div class="S2-card">
+                    <div class="S2-card js-move js-move-bottom">
                         <i class="S2-icon-card fa-solid fa-draw-polygon"></i>
                         <h2 class="S2-titulo-card">DIREITO MINERAL</h2>
                         <p class="S2-text-card">Monitore seus direitos minerais e seja alertado sobre construções
@@ -160,7 +162,7 @@
                     </div>
                 </div>
 
-                <div class="S2-box-card">
+                <div class="S2-box-card js-move js-move-bottom">
                     <div class="S2-card">
                         <i class="S2-icon-card fa-solid fa-tree"></i>
                         <h2 class="S2-titulo-card">REGENERAÇÃO FLORESTAL</h2>
@@ -204,7 +206,7 @@
                     </div>
                 </div>
 
-                <div class="S3-box-direito">
+                <div class="S3-box-direito js-move js-move-right">
                     <iframe class="video" width="593" height="356" src="https://www.youtube.com/embed/MoUI3OEPT3g"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -219,7 +221,7 @@
                 <h1 class="titulo-principal S4-titulo">Nossos planos</h1>
 
                 <div class="S4-card-planos">
-                    <div class="S4-card S4-card-menor">
+                    <div class="S4-card S4-card-menor js-move js-move-left">
 
                         <div class="S4-topo-card">
                             <h2 class="S4-titulo-card">Plano com imagens de menor resolução</h2>
@@ -271,7 +273,7 @@
                     </div>
 
 
-                    <div class="S4-card S4-card-melhor">
+                    <div class="S4-card S4-card-melhor js-move js-move-bottom">
                         <div class="S4-topo-card">
                             <h2 class="S4-titulo-card">Plano com imagens de menor resolução</h2>
                         </div>
@@ -329,7 +331,7 @@
             <div class="container-limite S5-section-blog">
                 <h1 class="titulo-principal S5-titulo">Blog</h1>
 
-                <div class="S5-box-card">
+                <div class="S5-box-card js-move js-move-bottom">
 
                     <div class="S5-card-blog">
                         <img class="S5-img-destaque" src="img/img-blog-1.jpeg" alt="[Imagem Destaque Blog]">
@@ -398,7 +400,7 @@
             <div class="container-limite S6-section-depoimentos">
                 <h1 class="titulo-principal S6-titulo">Depoimentos</h1>
 
-                <div class="S6-box-cards">
+                <div class="S6-box-cards js-move js-move-top">
 
                     <div class="S6-card-depoimento">
                         <div class="S6-wrapper-perfil">
@@ -498,7 +500,7 @@
 
                 </div>
 
-                <div class="S7-box S7-box-direito">
+                <div class="S7-box S7-box-direito js-move js-move-right">
                     <iframe class="S7-video" width="560" height="315" src="https://www.youtube.com/embed/I3PIZig8l4Y"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -531,7 +533,7 @@
                     <p class="S9-subtitulo">Perguntas Frequentes.</p>
                 </div>
 
-                <div class="S9-box S9-box-direito">
+                <div class="S9-box S9-box-direito js-move js-move-bottom">
                     <dl class="S9-faq-lista JS-S9-faq-lista">
                         <dt class="S9-pergunta JS-S9-pergunta">Com que frênquencia as imagens são atualizadas?<i
                                 class="fas fa-plus"></i></dt>
@@ -610,13 +612,12 @@
                                 <li><a href="#blog" id="blog" class="menu-footer">Blog</a></li>
                                 <li><a href="#depoimentos" id="depoimentos" class="menu-footer">Depoimentos</a></li>
                                 <li><a href="#faq" id="faq" class="menu-footer">FAQ</a></li>
-                                <li><a href="#trabalhe-conosco" id="trabalhe-conosco" class="menu-footer">Trabalhe
-                                        Conosco</a></li>
+                                <li><a href="#trabalhe-conosco" id="trabalhe-conosco" class="menu-footer">Trabalhe conosco</a></li>
                             </ul>
                         </nav>
 
                         <div class="S10-wrapper-emoj">
-                            <img class="S10-emoj" src="img/emoji-1.png" alt="[Imagem Emoj Feliz]">
+                            <img class="S10-emoj js-move js-move-trepida" src="img/emoji-1.png" alt="[Imagem Emoj Feliz]">
                         </div>
                     </div>
 

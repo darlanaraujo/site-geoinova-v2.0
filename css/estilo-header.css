@@ -30,6 +30,8 @@
 }
 
 /* Topo (logo, Menu) */
+
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -110,55 +112,4 @@
 
 .header-content-right {
     align-self: flex-end;
-}
-
-
-/* Elementos JS */
-.JS-header-top-fixo {
-    display: flex;
-    background-color: #005FF6;
-    position: fixed;
-    padding: 0 20px;
-    z-index: 1000;
-    animation: fade-out .3s forwards;
-    /* display: none; */
-    
-}
-
-.JS-header-top-fixo.active {
-    
-    animation: fade-in .5s forwards;
-}
-
-.JS-header-top-fixo.active .menu-principal .menu:hover {
-    border-bottom: 3px solid #fff;
-}
-
-.JS-header-top-fixo.active .menu-principal .menu-social:hover {
-    background-color: #fff;
-    color: #005FF6;
-    border-radius: 8px;
-}
-
-/* Animações */
-@keyframes fade-in {
-    from {
-        transform: translate3d(0, -80px, 0);
-        opacity: 0;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes fade-out {
-    from {
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-    to {
-        transform: translate3d(0, -80px, 0);
-        opacity: 0;
-    }
 }
