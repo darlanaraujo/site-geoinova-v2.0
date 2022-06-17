@@ -1,6 +1,6 @@
 /* Imagem topo */
 .fundo-topo {
-    width: 100vw;
+    width: 100%;
     height: 525px;
     background-color: #080710;
     background-image: url("../img/fundo-topo.jpg");
