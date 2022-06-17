@@ -19,7 +19,7 @@ function initMenuFixo() {
 initMenuFixo();
 
 // ===================================
-// ANIMAÇÃO SEÇÃO QUEM SOMOS
+// ANIMAÇÃO COM SCROLL
 // ===================================
 function initAnimaScroll() {
     const itensMove = document.querySelectorAll('.js-move');
@@ -45,5 +45,30 @@ function initAnimaScroll() {
 initAnimaScroll();
 
 
+// ===================================
+// SCROLL SUAVE
+// ===================================
+const menu = document.querySelectorAll('.js-menu');
+
+menu.forEach((item) => {
+    item.addEventListener('click', (event) => {
+        // Uso o event para saber o nome do botão clicado
+        const id = event.target.hash; // Ex: #faq
+
+        // Crio uma NodeList usando o nome clicado como seletor
+        const target = document.querySelectorAll(`[href^="${id}"]`);
+
+        // Removo todos as classes actives de todos os menus
+        menu.forEach((item) => {
+            item.classList.remove('active')
+        });
+
+        // Uso apenas a NodeList criada para ativar a classe
+        target.forEach((item) => {
+            item.classList.add('active');
+        });
+
+    });
+});
 
 

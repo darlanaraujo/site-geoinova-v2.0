@@ -74,3 +74,19 @@
     animation-duration: .2s;
     animation-iteration-count: 5;
 }
+
+/* ========== MENU ACTIVE ========== */
+.js-menu.active {
+    border-bottom: 3px solid #005FF6;
+    transition: .5s;
+}
+
+.js-header-top-fixo .js-menu.active {
+    border-bottom: 3px solid #fff;
+    transition: .5s;
+}
+
+.js-menu-footer .js-menu.active {
+    border-bottom: 3px solid #fff;
+    transition: .5s;
+}
