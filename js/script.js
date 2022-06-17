@@ -102,3 +102,46 @@ function initMenuScroll() {
 }
 initMenuScroll();
 
+// ===================================
+// SCROLL SUAVE
+// ===================================
+function initScrollSuave() {
+    const menu = document.querySelectorAll('.js-menu[href^="#"]');
+
+    menu.forEach((item) => {
+        item.addEventListener('click', (event) => {
+            event.preventDefault();
+            
+            const href = item.getAttribute('href');
+            const section = document.querySelector(href);
+            const itemTop = section.offsetTop - 40;
+
+            window.scrollTo({
+                top: itemTop,
+                behavior: 'smooth',
+                
+            });
+        });
+    });
+}
+initScrollSuave();
+
+// ===================================
+// BOTÃO TOP - SCROLL SUAVE
+// ===================================
+function initBtnTop() {
+    const btnTop = document.querySelector('.S10-btn-topo');
+    const body = document.querySelector('body');
+    
+    btnTop.addEventListener('click', (event) => {
+        event.preventDefault();
+    
+        const topo = body.offsetTop;
+    
+        window.scrollTo({
+            top: topo,
+            behavior: 'smooth',
+        });
+    });
+}
+initBtnTop();

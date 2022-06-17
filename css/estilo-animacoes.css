@@ -1,4 +1,4 @@
-/* ========== HEADER ========== */
+/* ========== ANIMAÇÃO SECTION ========== */
 @keyframes fade-in {
     from {
         transform: translate3d(0, -80px, 0);
@@ -21,6 +21,7 @@
     }
 }
 
+/* ========== ANIMAÇÃO EMOJ FOOTER =========== */
 @keyframes trepida {
     0% {transform: rotate3d(0, 0, 1, 0deg);}
     25% {transform: rotate3d(0, 0, 1, 5deg);}
@@ -28,4 +29,16 @@
     75% {transform: rotate3d(0, 0, 1, -5deg);}
     100% {transform: rotate3d(0, 0, 1, 0deg);}
 }
-/* ============================ */
+
+
+/* ========== ANIMAÇÃO MODAL ========== */
+@keyframes modal {
+    from {
+        transform: translate3d(0, 200px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
