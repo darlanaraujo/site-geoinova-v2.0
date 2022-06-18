@@ -30,6 +30,11 @@
 .S9-box-direito {
     display: flex;
     gap: 15px;
+    width: 70%;
+}
+
+.S9-faq-lista {
+    width: 50%;
 }
 
 .S9-pergunta {
@@ -50,13 +55,8 @@
     font-size: 18px;
 }
 
-.S9-resposta {
+.S9-resposta.active {
     padding: 15px 15px 25px 15px;
     border-bottom: solid 1px #005FF6;
     margin-bottom: 10px;
-}
-
-/* Elementos JS */
-.JS-S9-resposta {
-    display: none;
 }

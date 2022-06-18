@@ -42,3 +42,13 @@
         opacity: 1;
     }
 }
+
+/* ========== ANIMAÇÃO ACORDION ========== */
+@keyframes sliderDown {
+    from {
+ 
+    }
+    to {
+
+    }
+}

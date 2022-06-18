@@ -130,10 +130,10 @@ initScrollSuave();
 // BOTÃO TOP - SCROLL SUAVE
 // ===================================
 function initBtnTop() {
-    const btnTop = document.querySelector('.S10-btn-topo');
+    const btnTopo = document.querySelector('.js-btn-topo');
     const body = document.querySelector('body');
     
-    btnTop.addEventListener('click', (event) => {
+    btnTopo.addEventListener('click', (event) => {
         event.preventDefault();
     
         const topo = body.offsetTop;
@@ -145,3 +145,103 @@ function initBtnTop() {
     });
 }
 initBtnTop();
+
+// ===================================
+// BOTÃO SAIBA MAIS - SCROLL SUAVE
+// ===================================
+function initBtnSaibaMais() {
+    const btnSaibaMais = document.querySelector('.js-btn-saiba-mais');
+    const beneficios = document.querySelector('#beneficios');
+    
+    btnSaibaMais.addEventListener('click', (event) => {
+        event.preventDefault();
+    
+        const topo = beneficios.offsetTop;
+    
+        window.scrollTo({
+            top: topo,
+            behavior: 'smooth',
+        })
+    
+    });
+}
+initBtnSaibaMais();
+
+// ===================================
+// MODAL CONTATO
+// ===================================
+function initModalContato() {
+    const btnContato = document.querySelector('.js-btn-contato');
+    const modalContato = document.querySelector('.js-modal-contato');
+    const btnModalFechar = document.querySelector('.js-btn-fechar');
+    const btnConhecer = document.querySelector('.js-btn-conhecer');
+    const listInput = document.querySelectorAll('.js-s11-input');
+
+    btnContato.addEventListener('click', (event) => {
+        event.preventDefault();
+        modalContato.classList.add('active');
+    });
+
+    btnModalFechar.addEventListener('click', (event) => {
+        event.preventDefault();
+        modalContato.classList.remove('active');
+    });
+
+    btnConhecer.addEventListener('click', (event) => {
+        event.preventDefault();
+        const arrayLista = new Array();
+        
+
+        listInput.forEach((item) => {
+
+            // console.log(item.value);
+
+            if(item.value === '') {
+                console.log('campo vazio!');
+            } else {
+                arrayLista.push(item.value);
+            }
+
+        });
+
+        const lista = {
+            nome: arrayLista[0],
+            email: arrayLista[1],
+            celular: arrayLista[2],
+            empresa: arrayLista[3],
+            cargo: arrayLista[4],
+        }
+
+        console.log(arrayLista);
+        console.log(lista);
+
+    });
+}
+initModalContato();
+
+// ===================================
+// ACCORDION FAQ
+// ===================================
+function initAccordion() {
+    const perguntas = document.querySelectorAll('.js-s9-pergunta');
+    
+    perguntas.forEach((item) => {
+        item.addEventListener('click', () => {
+    
+            item.nextElementSibling.classList.toggle('active');
+            item.classList.toggle('active');
+    
+        });
+    });
+}
+initAccordion();
+
+// ===================================
+// MOVE SATELITE
+// ===================================
+const satelite = document.querySelector('.js-satelite');
+
+window.addEventListener('mousemove', (event) => {
+    // console.log(event.clientX, event.clientY);
+
+})

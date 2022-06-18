@@ -90,3 +90,25 @@
     border-bottom: 3px solid #fff;
     transition: .5s;
 }
+
+/* ========== MODAL CONTATO ========== */
+.js-modal-contato {
+    display: none;
+}
+
+.js-modal-contato.active {
+    display: block;
+}
+
+/* ========== ACORDION FAQ ========== */
+.js-s9-pergunta.active i:not(:last-child) {
+    display: none;
+}
+
+.js-s9-resposta {
+    display: none;
+}
+
+.js-s9-resposta.active {
+    display: block;
+}

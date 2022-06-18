@@ -19,6 +19,7 @@
     width: 100%;
     position: absolute;
     bottom: -1px;
+    z-index: 100;
 }
 
 /* Cabeçalho */
@@ -112,4 +113,8 @@
 
 .header-content-right {
     align-self: flex-end;
+}
+
+.header-img-satelite {
+    z-index: 1000;
 }
