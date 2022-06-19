@@ -116,5 +116,6 @@
 }
 
 .header-img-satelite {
+    /* transform: translate(); */
     z-index: 1000;
 }

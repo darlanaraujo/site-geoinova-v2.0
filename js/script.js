@@ -239,9 +239,14 @@ initAccordion();
 // ===================================
 // MOVE SATELITE
 // ===================================
-const satelite = document.querySelector('.js-satelite');
-
-window.addEventListener('mousemove', (event) => {
-    // console.log(event.clientX, event.clientY);
-
-})
+function initMoveSatelite() {
+    const satelite = document.querySelector('.js-satelite');
+    
+    window.addEventListener('mousemove', (event) => {
+        let X = -event.screenX / 10;
+        let Y = -event.screenY / 10;
+    
+        satelite.style.transform = `translate(${X}px, ${Y}px)`;
+    })
+}
+initMoveSatelite();
