@@ -17,7 +17,7 @@
 .S8-carrossel {
     display: flex;
     gap: 5px;
-    width: 1000px;
+    max-width: 1000px;
     height: 175px;
     position: relative;
     margin: 0 auto;

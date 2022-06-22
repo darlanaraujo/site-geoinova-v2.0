@@ -37,9 +37,10 @@
 }
 
 .S7-img-carrossel {
-    width: 31%;
+    /* width: 31%; */
     height: 115px;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .S7-video {

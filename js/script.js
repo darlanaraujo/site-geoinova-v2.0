@@ -255,9 +255,22 @@ initMoveSatelite();
 // ===================================
 // CARROSSEL CLIENTES - SLICK
 // ===================================
-$('.js-carrossel').slick({
+$('.js-carrossel-autoplay').slick({
+    dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
+    arrows: false,
+  });
+
+
+$('.js-carrossel-multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    dots: true,
+    arrows: true,
   });

@@ -12,6 +12,11 @@
 }
 
 .S6-box-cards {
+    display: block;
+    gap: 15px;
+}
+
+.S6-carrossel {
     display: flex;
     gap: 15px;
 }

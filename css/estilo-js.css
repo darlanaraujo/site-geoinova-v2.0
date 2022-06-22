@@ -112,3 +112,19 @@
 .js-s9-resposta.active {
     display: block;
 }
+
+/* ========== COR DOTS CARROSSEL ========== */
+.S8-carrossel .slick-dots li button:before {
+    color: #005FF6;
+}
+
+.S8-carrossel .slick-dots li.slick-active button:before {
+    color: #005FF6;
+}
+
+
+/* ========== SETA CARROSSEL ========== */
+.S6-carrossel .slick-prev::before,
+.S6-carrossel .slick-next:before {
+    color: #005FF6;
+}

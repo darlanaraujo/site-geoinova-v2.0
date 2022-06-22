@@ -24,14 +24,15 @@
     <link rel="stylesheet" href="css/estilo-animacoes.css">
 
     <!-- Estilo Biblioteca Slick -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="bibliotecas/slick/slick.css">
+    <link rel="stylesheet" href="bibliotecas/slick/slick-theme.css">
 
     <!-- Biblioteca JQuery e Slick -->
-    <script src="jquery/jquery-3.6.0.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+    <!-- <script src="bibliotecas/jquery/jquery-3.6.0.js" defer></script> -->
+    <!-- <script src="bibliotecas/slick/slick.js" defer></script> -->
+    
     <!-- Script -->
-    <script src="js/script.js" defer></script>
+    <!-- <script src="js/script.js" defer></script> -->
 
     <!--Importação de imagens Fontawesome-->
     <script src="https://kit.fontawesome.com/109d143e9b.js" crossorigin="anonymous"></script>
@@ -412,85 +413,164 @@
             <div class="container-limite S6-section-depoimentos js-section" id="depoimentos">
                 <h1 class="titulo-principal S6-titulo">Depoimentos</h1>
 
-                <div class="S6-box-cards js-move js-move-top">
+                <div class="S6-box-cards js-move js-move-top ">
 
-                    <div class="S6-card-depoimento">
-                        <div class="S6-wrapper-perfil">
-                            <img class="S6-img-foto" src="img/davi.jpeg" alt="[Foto do perfil Depoimentos]">
-
-                            <div>
-                                <p class="S6-nome">Davi Gonçalves</p>
-                                <div class="S6-avaliacao">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                    <div class="S6-carrossel js-carrossel-multiple-items">
+                        <div class="S6-card-depoimento">
+                            <div class="S6-wrapper-perfil">
+                                <img class="S6-img-foto" src="img/davi.jpeg" alt="[Foto do perfil Depoimentos]">
+    
+                                <div>
+                                    <p class="S6-nome">Davi Gonçalves</p>
+                                    <div class="S6-avaliacao">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="S6-funcao">(Analista de Inovação) Anglo America</span>
                                 </div>
-                                <span class="S6-funcao">(Analista de Inovação) Anglo America</span>
                             </div>
+    
+                            <p class="S6-depoimento">
+                                A GeoInova se mostrou uma empresa muito parceira da Anglo American, ela atendeu os
+                                requisitos e entregou além do esperado, nos ajudou a elevar o patamar de monitoramento.
+                                Saímos de um estágio de monitoramento totalmente reativo para algo muito mais proativo e
+                                imediato.
+                            </p>
+    
+                        </div>
+    
+                        <div class="S6-card-depoimento">
+                            <div class="S6-wrapper-perfil">
+                                <img class="S6-img-foto" src="img/greyce.jpeg" alt="[Foto do perfil Depoimentos]">
+    
+                                <div>
+                                    <p class="S6-nome">Greyce Franzmann</p>
+                                    <div class="S6-avaliacao">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="S6-funcao">(Open Innovation) Vale</span>
+                                </div>
+                            </div>
+    
+                            <p class="S6-depoimento">
+                                Para nós da Vale é uma proposta de valor bem alta, foi uma parceria muito fluida em todos os
+                                sentidos, pra nós só elogios. As entregas são feitas com muita assertividade e rapidez. A
+                                solução foi uma oportunidade para a Vale tomar decisões mais assertivas. Esperamos escalar a
+                                solução o quanto antes dentro da Vale.
+                            </p>
+    
+                        </div>
+    
+                        <div class="S6-card-depoimento">
+                            <div class="S6-wrapper-perfil">
+                                <img class="S6-img-foto" src="img/jackson.jpeg" alt="[Foto do perfil Depoimentos]">
+    
+                                <div>
+                                    <p class="S6-nome">Jackson Reis</p>
+                                    <div class="S6-avaliacao">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="S6-funcao">(Especialista em Inovação) Gerdau</span>
+                                </div>
+                            </div>
+    
+                            <p class="S6-depoimento">
+                                A solução foi algo totalmente disruptivo daquilo que esperávamos. A parceria foi
+                                sensacional, uma empresa super aberta a melhorar o produto e suas entregas. A principal
+                                característica é o comprometimento, foi transformador trabalhar com a empresa.
+                            </p>
+    
                         </div>
 
-                        <p class="S6-depoimento">
-                            A GeoInova se mostrou uma empresa muito parceira da Anglo American, ela atendeu os
-                            requisitos e entregou além do esperado, nos ajudou a elevar o patamar de monitoramento.
-                            Saímos de um estágio de monitoramento totalmente reativo para algo muito mais proativo e
-                            imediato.
-                        </p>
-
-                    </div>
-
-                    <div class="S6-card-depoimento">
-                        <div class="S6-wrapper-perfil">
-                            <img class="S6-img-foto" src="img/greyce.jpeg" alt="[Foto do perfil Depoimentos]">
-
-                            <div>
-                                <p class="S6-nome">Greyce Franzmann</p>
-                                <div class="S6-avaliacao">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                        <div class="S6-card-depoimento">
+                            <div class="S6-wrapper-perfil">
+                                <img class="S6-img-foto" src="img/davi.jpeg" alt="[Foto do perfil Depoimentos]">
+    
+                                <div>
+                                    <p class="S6-nome">Davi Gonçalves</p>
+                                    <div class="S6-avaliacao">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="S6-funcao">(Analista de Inovação) Anglo America</span>
                                 </div>
-                                <span class="S6-funcao">(Open Innovation) Vale</span>
                             </div>
+    
+                            <p class="S6-depoimento">
+                                A GeoInova se mostrou uma empresa muito parceira da Anglo American, ela atendeu os
+                                requisitos e entregou além do esperado, nos ajudou a elevar o patamar de monitoramento.
+                                Saímos de um estágio de monitoramento totalmente reativo para algo muito mais proativo e
+                                imediato.
+                            </p>
+    
                         </div>
-
-                        <p class="S6-depoimento">
-                            Para nós da Vale é uma proposta de valor bem alta, foi uma parceria muito fluida em todos os
-                            sentidos, pra nós só elogios. As entregas são feitas com muita assertividade e rapidez. A
-                            solução foi uma oportunidade para a Vale tomar decisões mais assertivas. Esperamos escalar a
-                            solução o quanto antes dentro da Vale.
-                        </p>
-
-                    </div>
-
-                    <div class="S6-card-depoimento">
-                        <div class="S6-wrapper-perfil">
-                            <img class="S6-img-foto" src="img/jackson.jpeg" alt="[Foto do perfil Depoimentos]">
-
-                            <div>
-                                <p class="S6-nome">Jackson Reis</p>
-                                <div class="S6-avaliacao">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+    
+                        <div class="S6-card-depoimento">
+                            <div class="S6-wrapper-perfil">
+                                <img class="S6-img-foto" src="img/greyce.jpeg" alt="[Foto do perfil Depoimentos]">
+    
+                                <div>
+                                    <p class="S6-nome">Greyce Franzmann</p>
+                                    <div class="S6-avaliacao">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="S6-funcao">(Open Innovation) Vale</span>
                                 </div>
-                                <span class="S6-funcao">(Especialista em Inovação) Gerdau</span>
                             </div>
+    
+                            <p class="S6-depoimento">
+                                Para nós da Vale é uma proposta de valor bem alta, foi uma parceria muito fluida em todos os
+                                sentidos, pra nós só elogios. As entregas são feitas com muita assertividade e rapidez. A
+                                solução foi uma oportunidade para a Vale tomar decisões mais assertivas. Esperamos escalar a
+                                solução o quanto antes dentro da Vale.
+                            </p>
+    
                         </div>
-
-                        <p class="S6-depoimento">
-                            A solução foi algo totalmente disruptivo daquilo que esperávamos. A parceria foi
-                            sensacional, uma empresa super aberta a melhorar o produto e suas entregas. A principal
-                            característica é o comprometimento, foi transformador trabalhar com a empresa.
-                        </p>
-
+    
+                        <div class="S6-card-depoimento">
+                            <div class="S6-wrapper-perfil">
+                                <img class="S6-img-foto" src="img/jackson.jpeg" alt="[Foto do perfil Depoimentos]">
+    
+                                <div>
+                                    <p class="S6-nome">Jackson Reis</p>
+                                    <div class="S6-avaliacao">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="S6-funcao">(Especialista em Inovação) Gerdau</span>
+                                </div>
+                            </div>
+    
+                            <p class="S6-depoimento">
+                                A solução foi algo totalmente disruptivo daquilo que esperávamos. A parceria foi
+                                sensacional, uma empresa super aberta a melhorar o produto e suas entregas. A principal
+                                característica é o comprometimento, foi transformador trabalhar com a empresa.
+                            </p>
+    
+                        </div>
                     </div>
-
+                    
                 </div>
             </div>
         </section>
@@ -504,10 +584,14 @@
                     <p class="S7-text">Veja as matérias e notícias que a imprensa divulgou sobre a Geoinova e sua
                         solução Inovamaps. Produto que tem gerado economia para grande indústrias.</p>
 
-                    <div class="S7-carrossel">
+                    <div class="S7-carrossel js-carrossel-autoplay">
                         <img class="S7-img-carrossel" src="img/logo-abdi.jpeg" alt="[Logo ABDI]">
                         <img class="S7-img-carrossel" src="img/logo-computerworld.jpeg" alt="[Logo ComputerWord]">
                         <img class="S7-img-carrossel" src="img/logo-valor.jpeg" alt="[Logo Valor]">
+                        <img class="S7-img-carrossel" src="img/logo-investe-sao-paulo.jpg" alt="[Logo Investe São Paulo]">
+                        <img class="S7-img-carrossel" src="img/logo-globo.jpg" alt="[Logo Globo]">
+                        <img class="S7-img-carrossel" src="img/logo-startse.jpg" alt="[Logo Startse]">
+                        <img class="S7-img-carrossel" src="img/logo-portal-da-mineracao.jpg" alt="[Logo Portal da Mineração]">
                     </div>
 
                 </div>
@@ -527,11 +611,13 @@
             <div class="container-limite S8-section-clientes">
                 <h1 class="titulo-principal S8-titulo">Nossos clientes</h1>
 
-                <div class="S8-carrossel js-carrossel">
+                <div class="S8-carrossel js-carrossel-autoplay ">
                     <img class="S8-img-carrossel" src="img/anglo-american-logo.png" alt="[Logo Anglo America]">
                     <img class="S8-img-carrossel" src="img/gerdau-logo.png" alt="[Logo Gerdau]">
                     <img class="S8-img-carrossel" src="img/vale-logo.png" alt="[Logo Vale]">
                     <img class="S8-img-carrossel" src="img/votorantim-logo.png" alt="[Logo Votorantim]">
+                    <img class="S8-img-carrossel" src="img/alphaville-urbanismo-logo.png" alt="[Logo Votorantim]">
+                    <img class="S8-img-carrossel" src="img/rhi-megnesita-logo.png" alt="[Logo Votorantim]">
                 </div>
             </div>
         </section>
@@ -702,6 +788,13 @@
             </div>
         </section>
     </section>
+
+    <!-- Script Externo -->
+    <script src="bibliotecas/jquery/jquery-3.6.0.js"></script>
+    <script src="bibliotecas/slick/slick.js"></script>
+    
+    <!-- Script -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
