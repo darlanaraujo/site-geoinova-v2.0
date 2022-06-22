@@ -250,3 +250,14 @@ function initMoveSatelite() {
     })
 }
 initMoveSatelite();
+
+
+// ===================================
+// CARROSSEL CLIENTES - SLICK
+// ===================================
+$('.js-carrossel').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
