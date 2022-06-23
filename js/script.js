@@ -171,21 +171,38 @@ initBtnSaibaMais();
 // MODAL CONTATO
 // ===================================
 function initModalContato() {
-    const btnContato = document.querySelector('.js-btn-contato');
+    const btnContato = document.querySelectorAll('.js-btn-contato');
     const modalContato = document.querySelector('.js-modal-contato');
     const btnModalFechar = document.querySelector('.js-btn-fechar');
     const btnConhecer = document.querySelector('.js-btn-conhecer');
     const listInput = document.querySelectorAll('.js-s11-input');
+    const janela = document.querySelector('body');
 
-    btnContato.addEventListener('click', (event) => {
-        event.preventDefault();
-        modalContato.classList.add('active');
+    btnContato.forEach((item) => {
+        item.addEventListener('click', (event) => {
+
+            console.log('clicou! Botão!');
+
+            event.preventDefault();
+            modalContato.classList.add('active');
+        });
     });
 
     btnModalFechar.addEventListener('click', (event) => {
         event.preventDefault();
         modalContato.classList.remove('active');
     });
+
+    modalContato.addEventListener('click', (event) => {
+
+        // Fecha o modal se o click for fora da janela;
+        if(event.target.classList.contains('active')) {
+            modalContato.classList.remove('active');
+        }
+        
+    });
+
+    
 
     btnConhecer.addEventListener('click', (event) => {
         event.preventDefault();
