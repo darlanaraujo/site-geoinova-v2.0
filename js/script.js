@@ -22,6 +22,7 @@ initMenuFixo();
 function initAnimaScroll() {
     const itensMove = document.querySelectorAll('.js-move');
     itensMove[0].classList.add('active');
+    itensMove[1].classList.add('active');
     
     window.addEventListener('scroll', (event) => {
         itensMove.forEach((item, index) => {
